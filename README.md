@@ -2,6 +2,8 @@
 
 A demo of connect widgets in RStudio Connect.
 
+![](app/imgs/screenshot.png)
+
 ## Usage
 
 To render the report locally:
