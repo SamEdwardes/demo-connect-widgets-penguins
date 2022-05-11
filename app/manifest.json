@@ -11,8 +11,8 @@
   },
   "packages": {
     "R6": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "R6",
         "Title": "Encapsulated Classes with Reference Semantics",
@@ -36,8 +36,8 @@
       }
     },
     "askpass": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "askpass",
         "Type": "Package",
@@ -64,8 +64,8 @@
       }
     },
     "base64enc": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "base64enc",
         "Version": "0.1-3",
@@ -86,8 +86,8 @@
       }
     },
     "bslib": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "bslib",
         "Title": "Custom 'Bootstrap' 'Sass' Themes for 'shiny' and 'rmarkdown'",
@@ -115,35 +115,36 @@
       }
     },
     "cli": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "cli",
         "Title": "Helpers for Developing Command Line Interfaces",
-        "Version": "3.0.1",
-        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = c(\"ctb\")),\n    person(\"Kirill\", \"Müller\", role = c(\"ctb\")),\n    person(\"RStudio\", role = \"cph\")\n    )",
-        "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also contains a\n    number of lower level 'CLI' elements: rules, boxes, trees, and\n    'Unicode' symbols with 'ASCII' alternatives. It support ANSI colors and\n    text styles as well.",
+        "Version": "3.3.0",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", role = \"ctb\"),\n    person(\"Kirill\", \"Müller\", role = \"ctb\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "A suite of tools to build attractive command line interfaces\n    ('CLIs'), from semantic elements: headings, lists, alerts, paragraphs,\n    etc. Supports custom themes via a 'CSS'-like language. It also\n    contains a number of lower level 'CLI' elements: rules, boxes, trees,\n    and 'Unicode' symbols with 'ASCII' alternatives. It support ANSI\n    colors and text styles as well.",
         "License": "MIT + file LICENSE",
         "URL": "https://cli.r-lib.org, https://github.com/r-lib/cli#readme",
         "BugReports": "https://github.com/r-lib/cli/issues",
-        "RoxygenNote": "7.1.1.9001",
-        "Depends": "R (>= 2.10)",
-        "Imports": "glue, utils",
-        "Suggests": "callr, covr, grDevices, htmlwidgets, knitr, methods, mockery,\nprettycode (>= 1.1.0), processx, ps (>= 1.3.4.9000), rlang,\nrmarkdown, rstudioapi, shiny, testthat, tibble, withr",
+        "Depends": "R (>= 3.4)",
+        "Imports": "glue (>= 1.6.0), utils",
+        "Suggests": "asciicast, callr, covr, digest, grDevices, htmltools,\nhtmlwidgets, knitr, methods, mockery, processx, ps (>=\n1.3.4.9000), rlang, rmarkdown, rstudioapi, shiny, testthat,\ntibble, whoami, withr",
+        "Config/Needs/website": "r-lib/asciicast, bench, brio, cpp11, decor, desc,\nfansi, sessioninfo, tidyverse/tidytemplate, usethis, vctrs",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2.9000",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-07-16 20:08:00 UTC; gaborcsardi",
-        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph]",
+        "Packaged": "2022-04-21 12:31:05 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Hadley Wickham [ctb],\n  Kirill Müller [ctb],\n  RStudio [cph, fnd]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-07-17 09:00:01 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-07-19 12:35:56 UTC; unix"
+        "Date/Publication": "2022-04-25 10:00:06 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-04-26 10:49:36 UTC; unix"
       }
     },
     "connectwidgets": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "connectwidgets",
         "Title": "Organize and Curate Your Content Within 'RStudio Connect'",
@@ -167,35 +168,34 @@
       }
     },
     "crayon": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "crayon",
         "Title": "Colored Terminal Output",
-        "Version": "1.4.1",
+        "Version": "1.5.1",
         "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\",\n    role = c(\"aut\", \"cre\")),\n    person(\n    \"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"ctb\"))\n    )",
         "Description": "Colored terminal output on terminals that support 'ANSI'\n    color and highlight codes. It also works in 'Emacs' 'ESS'. 'ANSI'\n    color support is automatically detected. Colors and highlighting can\n    be combined and nested. New styles can also be created easily.\n    This package was inspired by the 'chalk' 'JavaScript' project.",
         "License": "MIT + file LICENSE",
-        "LazyData": "true",
         "URL": "https://github.com/r-lib/crayon#readme",
         "BugReports": "https://github.com/r-lib/crayon/issues",
-        "Collate": "'aaa-rstudio-detect.R' 'aab-num-ansi-colors.R' 'ansi-256.r'\n'combine.r' 'string.r' 'utils.r' 'crayon-package.r'\n'disposable.r' 'has_ansi.r' 'has_color.r' 'link.R' 'styles.r'\n'machinery.r' 'parts.r' 'print.r' 'rematch2.R' 'style-var.r'\n'show.r' 'string_operations.r'",
+        "Collate": "'aaa-rstudio-detect.R' 'aaaa-rematch2.R'\n'aab-num-ansi-colors.R' 'aac-num-ansi-colors.R' 'ansi-256.r'\n'ansi-palette.R' 'combine.r' 'string.r' 'utils.r'\n'crayon-package.r' 'disposable.r' 'has_ansi.r' 'has_color.r'\n'link.R' 'styles.r' 'machinery.r' 'parts.r' 'print.r'\n'style-var.r' 'show.r' 'string_operations.r'",
         "Imports": "grDevices, methods, utils",
         "Suggests": "mockery, rstudioapi, testthat, withr",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "Encoding": "UTF-8",
         "NeedsCompilation": "no",
-        "Packaged": "2021-02-08 18:57:04 UTC; gaborcsardi",
+        "Packaged": "2022-03-26 16:18:07 UTC; gaborcsardi",
         "Author": "Gábor Csárdi [aut, cre],\n  Brodie Gaslam [ctb]",
         "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-02-08 19:50:02 UTC",
-        "Built": "R 4.1.0; ; 2021-05-18 23:23:26 UTC; unix"
+        "Date/Publication": "2022-03-26 17:30:05 UTC",
+        "Built": "R 4.1.0; ; 2022-03-28 10:50:18 UTC; unix"
       }
     },
     "crosstalk": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "crosstalk",
         "Type": "Package",
@@ -220,8 +220,8 @@
       }
     },
     "curl": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "curl",
         "Type": "Package",
@@ -249,8 +249,8 @@
       }
     },
     "digest": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "digest",
         "Author": "Dirk Eddelbuettel <edd@debian.org> with contributions \n by Antoine Lucas, Jarek Tuszynski, Henrik Bengtsson, Simon Urbanek,\n Mario Frasca, Bryan Lewis, Murray Stokely, Hannes Muehleisen,\n Duncan Murdoch, Jim Hester, Wush Wu, Qiang Kou, Thierry Onkelinx, \n Michel Lang, Viliam Simko, Kurt Hornik, Radford Neal, Kendon Bell,\n Matthew de Queljoe, Ion Suruceanu, Bill Denney, Dirk Schumacher,\n and Winston Chang.",
@@ -275,38 +275,39 @@
       }
     },
     "dplyr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "dplyr",
         "Title": "A Grammar of Data Manipulation",
-        "Version": "1.0.7",
+        "Version": "1.0.8",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\"),\n             email = \"hadley@rstudio.com\",\n             comment = c(ORCID = \"0000-0003-4757-117X\")),\n      person(given = \"Romain\",\n             family = \"François\",\n             role = \"aut\",\n             comment = c(ORCID = \"0000-0002-2444-4226\")),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = \"aut\"),\n      person(given = \"Kirill\",\n             family = \"Müller\",\n             role = \"aut\",\n             comment = c(ORCID = \"0000-0002-1416-3412\")),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
         "Description": "A fast, consistent tool for working with data frame\n    like objects, both in memory and out of memory.",
         "License": "MIT + file LICENSE",
         "URL": "https://dplyr.tidyverse.org, https://github.com/tidyverse/dplyr",
         "BugReports": "https://github.com/tidyverse/dplyr/issues",
-        "Depends": "R (>= 3.3.0)",
-        "Imports": "ellipsis, generics, glue (>= 1.3.2), lifecycle (>= 1.0.0),\nmagrittr (>= 1.5), methods, R6, rlang (>= 0.4.10), tibble (>=\n2.1.3), tidyselect (>= 1.1.0), utils, vctrs (>= 0.3.5), pillar\n(>= 1.5.1)",
-        "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), knitr,\nLahman, lobstr, microbenchmark, nycflights13, purrr, rmarkdown,\nRMySQL, RPostgreSQL, RSQLite, testthat (>= 3.0.2), tidyr, withr",
+        "Depends": "R (>= 3.4.0)",
+        "Imports": "generics, glue (>= 1.3.2), lifecycle (>= 1.0.1), magrittr (>=\n1.5), methods, R6, rlang (>= 1.0.0), tibble (>= 2.1.3),\ntidyselect (>= 1.1.1), utils, vctrs (>= 0.3.5), pillar (>=\n1.5.1)",
+        "Suggests": "bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), ggplot2,\nknitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,\nrmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.1.1),\ntidyr, withr",
         "VignetteBuilder": "knitr",
         "Encoding": "UTF-8",
         "LazyData": "true",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse, shiny, r-lib/pkgdown,\ntidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-06-16 07:10:11 UTC; lionel",
+        "Packaged": "2022-02-07 08:29:01 UTC; romainfrancois",
         "Author": "Hadley Wickham [aut, cre] (<https://orcid.org/0000-0003-4757-117X>),\n  Romain François [aut] (<https://orcid.org/0000-0002-2444-4226>),\n  Lionel Henry [aut],\n  Kirill Müller [aut] (<https://orcid.org/0000-0002-1416-3412>),\n  RStudio [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-06-18 23:20:01 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-06-21 10:58:14 UTC; unix"
+        "Date/Publication": "2022-02-08 09:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-02-09 10:46:21 UTC; unix"
       }
     },
     "ellipsis": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "ellipsis",
         "Version": "0.3.2",
@@ -331,8 +332,8 @@
       }
     },
     "evaluate": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "evaluate",
         "Type": "Package",
@@ -358,16 +359,16 @@
       }
     },
     "fansi": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "fansi",
         "Title": "ANSI Control Sequence Aware String Functions",
         "Description": "Counterparts to R string manipulation functions that account for\n   the effects of ANSI text formatting control sequences.",
-        "Version": "0.5.0",
+        "Version": "1.0.3",
         "Authors@R": "c(\n    person(\"Brodie\", \"Gaslam\", email=\"brodie.gaslam@yahoo.com\",\n    role=c(\"aut\", \"cre\")),\n    person(\"Elliott\", \"Sales De Andrade\", role=\"ctb\"),\n    person(family=\"R Core Team\",\n    email=\"R-core@r-project.org\", role=\"cph\",\n    comment=\"UTF8 byte length calcs from src/util.c\"\n    ))",
         "Depends": "R (>= 3.1.0)",
-        "License": "GPL (>= 2)",
+        "License": "GPL-2 | GPL-3",
         "URL": "https://github.com/brodieG/fansi",
         "BugReports": "https://github.com/brodieG/fansi/issues",
         "VignetteBuilder": "knitr",
@@ -375,19 +376,19 @@
         "Imports": "grDevices, utils",
         "RoxygenNote": "7.1.1",
         "Encoding": "UTF-8",
-        "Collate": "'constants.R' 'fansi-package.R' 'has.R' 'internal.R' 'load.R'\n'misc.R' 'nchar.R' 'strip.R' 'strwrap.R' 'strtrim.R'\n'strsplit.R' 'substr2.R' 'tohtml.R' 'unhandled.R'",
+        "Collate": "'constants.R' 'fansi-package.R' 'internal.R' 'load.R' 'misc.R'\n'nchar.R' 'strwrap.R' 'strtrim.R' 'strsplit.R' 'substr2.R'\n'trimws.R' 'tohtml.R' 'unhandled.R' 'normalize.R' 'sgr.R'",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-05-25 00:22:35 UTC; bg",
+        "Packaged": "2022-03-24 00:52:26 UTC; bg",
         "Author": "Brodie Gaslam [aut, cre],\n  Elliott Sales De Andrade [ctb],\n  R Core Team [cph] (UTF8 byte length calcs from src/util.c)",
         "Maintainer": "Brodie Gaslam <brodie.gaslam@yahoo.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-05-25 04:40:10 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-27 10:57:08 UTC; unix"
+        "Date/Publication": "2022-03-24 07:50:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-25 10:45:05 UTC; unix"
       }
     },
     "fastmap": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "fastmap",
         "Title": "Fast Data Structures",
@@ -411,96 +412,96 @@
       }
     },
     "fs": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "fs",
         "Title": "Cross-Platform File System Operations Based on 'libuv'",
-        "Version": "1.5.0",
-        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"libuv project contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
+        "Version": "1.5.2",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", \"aut\"),\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"libuv project contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"Joyent, Inc. and other Node contributors\", role = \"cph\", comment = \"libuv library\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
         "Description": "A cross-platform interface to file system operations, built on\n  top of the 'libuv' C library.",
         "Depends": "R (>= 3.1)",
-        "License": "GPL-3",
+        "License": "MIT + file LICENSE",
         "Encoding": "UTF-8",
-        "LazyData": "true",
         "ByteCompile": "true",
         "Imports": "methods",
         "SystemRequirements": "GNU make",
-        "RoxygenNote": "7.1.1",
-        "URL": "http://fs.r-lib.org, https://github.com/r-lib/fs",
+        "RoxygenNote": "7.1.2",
+        "URL": "https://fs.r-lib.org, https://github.com/r-lib/fs",
         "BugReports": "https://github.com/r-lib/fs/issues",
         "Copyright": "file COPYRIGHTS",
         "Suggests": "testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,\nrmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)",
         "VignetteBuilder": "knitr",
         "Language": "en-US",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-07-31 21:00:55 UTC; jhester",
-        "Author": "Jim Hester [aut, cre],\n  Hadley Wickham [aut],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  RStudio [cph, fnd]",
-        "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
+        "Packaged": "2021-12-08 16:14:56 UTC; gaborcsardi",
+        "Author": "Jim Hester [aut],\n  Hadley Wickham [aut],\n  Gábor Csárdi [aut, cre],\n  libuv project contributors [cph] (libuv library),\n  Joyent, Inc. and other Node contributors [cph] (libuv library),\n  RStudio [cph, fnd]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2020-07-31 21:30:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:49 UTC; unix"
+        "Date/Publication": "2021-12-08 23:00:08 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-12-09 11:24:29 UTC; unix"
       }
     },
     "generics": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "generics",
         "Title": "Common S3 Generics not Provided by Base R Methods Related to\nModel Fitting",
-        "Version": "0.1.0",
+        "Version": "0.1.2",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = c(\"aut\", \"cre\"),\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Max\",\n             family = \"Kuhn\",\n             role = \"aut\",\n             email = \"max@rstudio.com\"),\n      person(given = \"Davis\",\n             family = \"Vaughan\",\n             role = \"aut\",\n             email = \"davis@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "In order to reduce potential package dependencies\n    and conflicts, generics provides a number of commonly used S3\n    generics.",
         "License": "MIT + file LICENSE",
         "URL": "https://generics.r-lib.org, https://github.com/r-lib/generics",
         "BugReports": "https://github.com/r-lib/generics/issues",
-        "Depends": "R (>= 3.1)",
+        "Depends": "R (>= 3.2)",
         "Imports": "methods",
-        "Suggests": "covr, pkgload, testthat, tibble",
+        "Suggests": "covr, pkgload, testthat (>= 3.0.0), tibble, withr",
+        "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
-        "LazyData": "true",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "NeedsCompilation": "no",
-        "Packaged": "2020-10-30 18:38:40 UTC; hadley",
+        "Packaged": "2022-01-31 22:58:18 UTC; hadley",
         "Author": "Hadley Wickham [aut, cre],\n  Max Kuhn [aut],\n  Davis Vaughan [aut],\n  RStudio [cph]",
         "Maintainer": "Hadley Wickham <hadley@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2020-10-31 06:10:15 UTC",
-        "Built": "R 4.1.0; ; 2021-05-18 23:23:57 UTC; unix"
+        "Date/Publication": "2022-01-31 23:30:02 UTC",
+        "Built": "R 4.1.0; ; 2022-02-01 16:54:13 UTC; unix"
       }
     },
     "glue": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "glue",
         "Title": "Interpreted String Literals",
-        "Version": "1.4.2",
-        "Authors@R": "person(\"Jim\", \"Hester\", email = \"james.f.hester@gmail.com\", role = c(\"aut\", \"cre\"))",
-        "Description": "An implementation of interpreted string literals, inspired by\n  Python's Literal String Interpolation <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n  <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted String Literals\n  <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
-        "Depends": "R (>= 3.2)",
-        "Imports": "methods",
-        "Suggests": "testthat, covr, magrittr, crayon, knitr, rmarkdown, DBI,\nRSQLite, R.utils, forcats, microbenchmark, rprintf, stringr,\nggplot2, dplyr, withr, vctrs (>= 0.3.0)",
+        "Version": "1.6.2",
+        "Authors@R": "c(\n    person(\"Jim\", \"Hester\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-2739-7082\")),\n    person(\"Jennifer\", \"Bryan\", , \"jenny@rstudio.com\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-6983-2759\")),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "An implementation of interpreted string literals, inspired by\n    Python's Literal String Interpolation\n    <https://www.python.org/dev/peps/pep-0498/> and Docstrings\n    <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted\n    String Literals\n    <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
         "License": "MIT + file LICENSE",
-        "Encoding": "UTF-8",
-        "LazyData": "true",
-        "RoxygenNote": "7.1.1",
         "URL": "https://github.com/tidyverse/glue, https://glue.tidyverse.org/",
         "BugReports": "https://github.com/tidyverse/glue/issues",
+        "Depends": "R (>= 3.4)",
+        "Imports": "methods",
+        "Suggests": "covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,\nmicrobenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,\ntestthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr",
         "VignetteBuilder": "knitr",
         "ByteCompile": "true",
+        "Config/Needs/website": "hadley/emo, tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-08-26 17:24:06 UTC; jhester",
-        "Author": "Jim Hester [aut, cre]",
-        "Maintainer": "Jim Hester <james.f.hester@gmail.com>",
+        "Packaged": "2022-02-23 22:50:40 UTC; jenny",
+        "Author": "Jim Hester [aut] (<https://orcid.org/0000-0002-2739-7082>),\n  Jennifer Bryan [aut, cre] (<https://orcid.org/0000-0002-6983-2759>),\n  RStudio [cph, fnd]",
+        "Maintainer": "Jennifer Bryan <jenny@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2020-08-27 13:50:06 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-09 00:26:36 UTC; unix"
+        "Date/Publication": "2022-02-24 07:50:20 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-02-25 11:36:45 UTC; unix"
       }
     },
     "highr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "highr",
         "Type": "Package",
@@ -527,8 +528,8 @@
       }
     },
     "htmltools": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "htmltools",
         "Type": "Package",
@@ -556,8 +557,8 @@
       }
     },
     "htmlwidgets": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "htmlwidgets",
         "Type": "Package",
@@ -584,8 +585,8 @@
       }
     },
     "httr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "httr",
         "Title": "Tools for Working with URLs and HTTP",
@@ -611,8 +612,8 @@
       }
     },
     "jquerylib": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "jquerylib",
         "Title": "Obtain 'jQuery' as an HTML Dependency Object",
@@ -635,11 +636,11 @@
       }
     },
     "jsonlite": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "jsonlite",
-        "Version": "1.7.2",
+        "Version": "1.8.0",
         "Title": "A Simple and Robust JSON Parser and Generator for R",
         "License": "MIT + file LICENSE",
         "Depends": "methods",
@@ -649,20 +650,20 @@
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "VignetteBuilder": "knitr, R.rsp",
         "Description": "A reasonably fast JSON parser and generator, optimized for statistical \n    data and the web. Offers simple, flexible tools for working with JSON in R, and\n    is particularly powerful for building pipelines and interacting with a web API. \n    The implementation is based on the mapping described in the vignette (Ooms, 2014).\n    In addition to converting JSON data from/to R objects, 'jsonlite' contains \n    functions to stream, validate, and prettify JSON data. The unit tests included \n    with the package verify that all edge cases are encoded and decoded consistently \n    for use with dynamic data in systems and applications.",
-        "Suggests": "httr, curl, plyr, testthat, knitr, rmarkdown, R.rsp, sf",
+        "Suggests": "httr, curl, vctrs, testthat, knitr, rmarkdown, R.rsp, sf",
         "RoxygenNote": "7.1.1",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-12-09 13:54:18 UTC; jeroen",
+        "Packaged": "2022-02-22 09:27:49 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Duncan Temple Lang [ctb],\n  Lloyd Hilaiel [cph] (author of bundled libyajl)",
         "Repository": "RSPM",
-        "Date/Publication": "2020-12-09 17:40:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:23:32 UTC; unix"
+        "Date/Publication": "2022-02-22 11:20:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-02-23 10:44:45 UTC; unix"
       }
     },
     "knitr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "knitr",
         "Type": "Package",
@@ -691,8 +692,8 @@
       }
     },
     "lazyeval": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "lazyeval",
         "Version": "0.2.2",
@@ -716,8 +717,8 @@
       }
     },
     "lifecycle": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "lifecycle",
         "Title": "Manage the Life Cycle of your Package Functions",
@@ -744,35 +745,37 @@
       }
     },
     "magrittr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "magrittr",
         "Title": "A Forward-Pipe Operator for R",
-        "Version": "2.0.1",
-        "Authors@R": "\n    c(person(given = \"Stefan Milton\",\n             family = \"Bache\",\n             role = c(\"aut\", \"cph\"),\n             email = \"stefan@stefanbache.dk\",\n             comment = \"Original author and creator of magrittr\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = \"cre\",\n             email = \"lionel@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = c(\"cph\", \"fnd\")))",
-        "Description": "Provides a mechanism for chaining commands with a\n    new forward-pipe operator, %>%. This operator will forward a value, or\n    the result of an expression, into the next function call/expression.\n    There is flexible support for the type of right-hand side expressions.\n    For more information, see package vignette.  To quote Rene Magritte,\n    \"Ceci n'est pas un pipe.\"",
+        "Version": "2.0.3",
+        "Authors@R": "c(\n    person(\"Stefan Milton\", \"Bache\", , \"stefan@stefanbache.dk\", role = c(\"aut\", \"cph\"),\n           comment = \"Original author and creator of magrittr\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Lionel\", \"Henry\", , \"lionel@rstudio.com\", role = \"cre\"),\n    person(\"RStudio\", role = c(\"cph\", \"fnd\"))\n  )",
+        "Description": "Provides a mechanism for chaining commands with a new\n    forward-pipe operator, %>%. This operator will forward a value, or the\n    result of an expression, into the next function call/expression.\n    There is flexible support for the type of right-hand side expressions.\n    For more information, see package vignette.  To quote Rene Magritte,\n    \"Ceci n'est pas un pipe.\"",
         "License": "MIT + file LICENSE",
         "URL": "https://magrittr.tidyverse.org,\nhttps://github.com/tidyverse/magrittr",
         "BugReports": "https://github.com/tidyverse/magrittr/issues",
+        "Depends": "R (>= 3.4.0)",
         "Suggests": "covr, knitr, rlang, rmarkdown, testthat",
         "VignetteBuilder": "knitr",
         "ByteCompile": "Yes",
+        "Config/Needs/website": "tidyverse/tidytemplate",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-11-17 12:44:34 UTC; lionel",
+        "Packaged": "2022-03-29 09:34:37 UTC; lionel",
         "Author": "Stefan Milton Bache [aut, cph] (Original author and creator of\n    magrittr),\n  Hadley Wickham [aut],\n  Lionel Henry [cre],\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2020-11-17 16:20:06 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-09 00:26:37 UTC; unix"
+        "Date/Publication": "2022-03-30 07:30:09 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-31 11:03:36 UTC; unix"
       }
     },
     "mime": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "mime",
         "Type": "Package",
@@ -796,65 +799,68 @@
       }
     },
     "openssl": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "openssl",
         "Type": "Package",
         "Title": "Toolkit for Encryption, Signatures and Certificates Based on\nOpenSSL",
-        "Version": "1.4.5",
+        "Version": "2.0.0",
         "Authors@R": "c(person(\"Jeroen\", \"Ooms\", role = c(\"aut\", \"cre\"), email = \"jeroen@berkeley.edu\",\n    comment = c(ORCID = \"0000-0002-4035-0289\")),\n    person(\"Oliver\", \"Keyes\", role = \"ctb\"))",
         "Description": "Bindings to OpenSSL libssl and libcrypto, plus custom SSH key parsers.\n    Supports RSA, DSA and EC curves P-256, P-384, P-521, and curve25519. Cryptographic\n    signatures can either be created and verified manually or via x509 certificates. \n    AES can be used in cbc, ctr or gcm mode for symmetric encryption; RSA for asymmetric\n    (public key) encryption or EC for Diffie Hellman. High-level envelope functions \n    combine RSA and AES for encrypting arbitrary sized data. Other utilities include key\n    generators, hash functions (md5, sha1, sha256, etc), base64 encoder, a secure random\n    number generator, and 'bignum' math methods for manually performing crypto \n    calculations on large multibyte integers.",
         "License": "MIT + file LICENSE",
         "URL": "https://github.com/jeroen/openssl",
         "BugReports": "https://github.com/jeroen/openssl/issues",
-        "SystemRequirements": "OpenSSL >= 1.0.1",
+        "SystemRequirements": "OpenSSL >= 1.0.2",
         "VignetteBuilder": "knitr",
         "Imports": "askpass",
-        "Suggests": "testthat (>= 2.1.0), digest, knitr, rmarkdown, jsonlite,\njose, sodium",
-        "RoxygenNote": "7.1.1",
+        "Suggests": "curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,\njsonlite, jose, sodium",
+        "RoxygenNote": "7.1.2",
         "Encoding": "UTF-8",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-09-01 13:46:10 UTC; jeroen",
+        "Packaged": "2022-03-02 14:15:23 UTC; jeroen",
         "Author": "Jeroen Ooms [aut, cre] (<https://orcid.org/0000-0002-4035-0289>),\n  Oliver Keyes [ctb]",
         "Maintainer": "Jeroen Ooms <jeroen@berkeley.edu>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-09-02 14:50:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-09-08 20:27:44 UTC; unix"
+        "Date/Publication": "2022-03-02 15:50:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-03 10:48:44 UTC; unix"
       }
     },
     "pillar": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "pillar",
         "Title": "Coloured Formatting for Columns",
-        "Version": "1.6.4",
+        "Version": "1.7.0",
         "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "Provides 'pillar' and 'colonnade' generics designed\n    for formatting columns of data using the full range of colours\n    provided by modern terminals.",
         "License": "MIT + file LICENSE",
         "URL": "https://pillar.r-lib.org/, https://github.com/r-lib/pillar",
         "BugReports": "https://github.com/r-lib/pillar/issues",
-        "Imports": "cli, crayon (>= 1.3.4), ellipsis (>= 0.3.2), fansi, lifecycle,\nrlang (>= 0.3.0), utf8 (>= 1.1.0), utils, vctrs (>= 0.3.8)",
-        "Suggests": "bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,\nknitr, lubridate, nycflights13, palmerpenguins, rmarkdown,\nscales, stringi, survival, testthat (>= 3.0.2), tibble, units\n(>= 0.7.2), withr",
+        "Imports": "cli (>= 2.3.0), crayon (>= 1.3.4), ellipsis (>= 0.3.2), fansi,\nglue, lifecycle, rlang (>= 0.3.0), utf8 (>= 1.1.0), utils,\nvctrs (>= 0.3.8)",
+        "Suggests": "bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,\nknitr, lubridate, nanotime, nycflights13, palmerpenguins,\nrmarkdown, scales, stringi, survival, testthat (>= 3.1.1),\ntibble, units (>= 0.7.2), vdiffr, withr",
         "VignetteBuilder": "knitr",
         "Encoding": "UTF-8",
         "RoxygenNote": "7.1.2",
         "Config/testthat/edition": "3",
         "Config/testthat/parallel": "true",
         "Config/testthat/start-first": "format_multi_fuzz, format_multi_fuzz_2,\nformat_multi, ctl_colonnade, ctl_colonnade_1, ctl_colonnade_2",
+        "Config/autostyle/scope": "line_breaks",
+        "Config/autostyle/strict": "true",
+        "Config/gha/extra-packages": "DiagrammeR=?ignore-before-r=3.5.0",
         "NeedsCompilation": "no",
-        "Packaged": "2021-10-18 19:26:34 UTC; kirill",
+        "Packaged": "2022-02-01 07:58:34 UTC; kirill",
         "Author": "Kirill Müller [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
         "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-10-18 19:50:01 UTC",
-        "Built": "R 4.1.0; ; 2021-10-19 16:05:47 UTC; unix"
+        "Date/Publication": "2022-02-01 08:30:02 UTC",
+        "Built": "R 4.1.0; ; 2022-02-02 14:13:06 UTC; unix"
       }
     },
     "pkgconfig": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "pkgconfig",
         "Title": "Private Configuration for 'R' Packages",
@@ -877,8 +883,8 @@
       }
     },
     "purrr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
@@ -905,8 +911,8 @@
       }
     },
     "rappdirs": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "rappdirs",
@@ -933,8 +939,8 @@
       }
     },
     "reactR": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "reactR",
         "Type": "Package",
@@ -962,8 +968,8 @@
       }
     },
     "reactable": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "reactable",
         "Type": "Package",
@@ -990,67 +996,70 @@
       }
     },
     "rlang": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "rlang",
-        "Version": "0.4.12",
+        "Version": "1.0.2",
         "Title": "Functions for Base Types and Core R and 'Tidyverse' Features",
         "Description": "A toolbox for working with base types, core R features\n  like the condition system, and core 'Tidyverse' features like tidy\n  evaluation.",
-        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
+        "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(given = \"mikefc\",\n           email = \"mikefc@coolbutuseless.com\", \n           role = \"cph\", \n           comment = \"Hash implementation based on Mike's xxhashlite\"),\n    person(given = \"Yann\",\n           family = \"Collet\",\n           role = \"cph\", \n           comment = \"Author of the embedded xxHash library\"),\n    person(given = \"RStudio\", role = c(\"cph\", \"fnd\"))\n    )",
         "License": "MIT + file LICENSE",
         "ByteCompile": "true",
         "Biarch": "true",
-        "Depends": "R (>= 3.3.0)",
+        "Depends": "R (>= 3.4.0)",
         "Imports": "utils",
-        "Suggests": "cli, covr, crayon, glue, magrittr, methods, pak, pillar,\nrmarkdown, testthat (>= 3.0.0), vctrs (>= 0.2.3), withr",
+        "Suggests": "cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,\nmethods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,\nusethis, vctrs (>= 0.2.3), withr",
         "Enhances": "winch",
+        "SystemRequirements": "C++11",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "URL": "https://rlang.r-lib.org, https://github.com/r-lib/rlang",
         "BugReports": "https://github.com/r-lib/rlang/issues",
         "Config/testthat/edition": "3",
+        "Config/Needs/website": "dplyr, tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-10-18 07:25:49 UTC; lionel",
-        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  RStudio [cph]",
+        "Packaged": "2022-03-04 12:15:17 UTC; lionel",
+        "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  mikefc [cph] (Hash implementation based on Mike's xxhashlite),\n  Yann Collet [cph] (Author of the embedded xxHash library),\n  RStudio [cph, fnd]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-10-18 23:00:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-09 00:26:36 UTC; unix"
+        "Date/Publication": "2022-03-04 15:30:06 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-07 10:51:11 UTC; unix"
       }
     },
     "rmarkdown": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
-        "Package": "rmarkdown",
         "Type": "Package",
+        "Package": "rmarkdown",
         "Title": "Dynamic Documents for R",
-        "Version": "2.11",
-        "Authors@R": "c(\n  person(\"JJ\", \"Allaire\", role = \"aut\", email = \"jj@rstudio.com\"),\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Jonathan\", \"McPherson\", role = \"aut\", email = \"jonathan@rstudio.com\"),\n  person(\"Javier\", \"Luraschi\", role = \"aut\", email = \"javier@rstudio.com\"),\n  person(\"Kevin\", \"Ushey\", role = \"aut\", email = \"kevin@rstudio.com\"),\n  person(\"Aron\", \"Atkins\", role = \"aut\", email = \"aron@rstudio.com\"),\n  person(\"Hadley\", \"Wickham\", role = \"aut\", email = \"hadley@rstudio.com\"),\n  person(\"Joe\", \"Cheng\", role = \"aut\", email = \"joe@rstudio.com\"),\n  person(\"Winston\", \"Chang\", role = \"aut\", email = \"winston@rstudio.com\"),\n  person(\"Richard\", \"Iannone\", role = \"aut\", email = \"rich@rstudio.com\", comment = c(ORCID = \"0000-0003-3925-190X\")),\n  #\n  # Contributors, ordered alphabetically by first name\n  person(\"Andrew\", \"Dunning\", role = \"ctb\", comment = c(ORCID = \"0000-0003-0464-5036\")),\n  person(\"Atsushi\", \"Yasumoto\", role = c(\"ctb\", \"cph\"),\n         comment = c(ORCID = \"0000-0002-8335-495X\",\n                     cph = \"Number sections Lua filter\")),\n  person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n  person(\"Carson\", \"Sievert\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4958-2844\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person(\"Devon\", \"Ryan\", role = \"ctb\", email = \"dpryan79@gmail.com\", comment = c(ORCID = \"0000-0002-8549-0971\")),\n  person(\"Frederik\", \"Aust\", role = \"ctb\", email = \"frederik.aust@uni-koeln.de\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n  person(\"Jeff\", \"Allen\", role = \"ctb\", email = \"jeff@rstudio.com\"),\n  person(\"JooYoung\", \"Seo\", role=\"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n  person(\"Malcolm\", \"Barrett\", role = \"ctb\"),\n  person(\"Rob\", \"Hyndman\", role = \"ctb\", email = \"Rob.Hyndman@monash.edu\"),\n  person(\"Romain\", \"Lesur\", role = \"ctb\"),\n  person(\"Roy\", \"Storey\", role = \"ctb\"),\n  person(\"Ruben\", \"Arslan\", role = \"ctb\", email = \"ruben.arslan@uni-goettingen.de\"),\n  person(\"Sergio\", \"Oller\", role = \"ctb\"),\n  #\n  # Copyright holders\n  person(family = \"RStudio, PBC\", role = \"cph\"),\n  person(family = \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"),\n         comment = \"jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt\"),\n  person(\"Mark\", \"Otto\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(\"Jacob\", \"Thornton\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(family = \"Bootstrap contributors\", role = \"ctb\",\n         comment = \"Bootstrap library\"),\n  person(family = \"Twitter, Inc\", role = \"cph\",\n         comment = \"Bootstrap library\"),\n  person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"),\n         comment = \"html5shiv library\"),\n  person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"),\n         comment = \"Respond.js library\"),\n  person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"),\n         comment = \"highlight.js library\"),\n  person(\"Greg\", \"Franko\", role = c(\"ctb\", \"cph\"),\n         comment = \"tocify library\"),\n  person(\"John\", \"MacFarlane\", role = c(\"ctb\", \"cph\"),\n         comment = \"Pandoc templates\"),\n  person(family = \"Google, Inc.\", role = c(\"ctb\", \"cph\"),\n         comment = \"ioslides library\"),\n  person(\"Dave\", \"Raggett\", role = \"ctb\",\n         comment = \"slidy library\"),\n  person(family = \"W3C\", role = \"cph\",\n         comment = \"slidy library\"),\n  person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"),\n         comment = \"Font-Awesome\"),\n  person(\"Ben\", \"Sperry\", role = \"ctb\",\n         comment = \"Ionicons\"),\n  person(family = \"Drifty\", role = \"cph\",\n         comment = \"Ionicons\"),\n  person(\"Aidan\", \"Lister\", role = c(\"ctb\", \"cph\"), \n         comment = \"jQuery StickyTabs\"),\n  person(\"Benct Philip\", \"Jonsson\", role = c(\"ctb\", \"cph\"), \n         comment = \"pagebreak Lua filter\"),\n  person(\"Albert\", \"Krewinkel\", role = c(\"ctb\", \"cph\"), \n         comment = \"pagebreak Lua filter\")\n  )",
+        "Version": "2.14",
+        "Authors@R": "c(\n    person(\"JJ\", \"Allaire\", , \"jj@rstudio.com\", role = \"aut\"),\n    person(\"Yihui\", \"Xie\", , \"xie@yihui.name\", role = c(\"aut\", \"cre\"), comment = c(ORCID = \"0000-0003-0645-5666\")),\n    person(\"Jonathan\", \"McPherson\", , \"jonathan@rstudio.com\", role = \"aut\"),\n    person(\"Javier\", \"Luraschi\", , \"javier@rstudio.com\", role = \"aut\"),\n    person(\"Kevin\", \"Ushey\", , \"kevin@rstudio.com\", role = \"aut\"),\n    person(\"Aron\", \"Atkins\", , \"aron@rstudio.com\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", , \"hadley@rstudio.com\", role = \"aut\"),\n    person(\"Joe\", \"Cheng\", , \"joe@rstudio.com\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", , \"winston@rstudio.com\", role = \"aut\"),\n    person(\"Richard\", \"Iannone\", , \"rich@rstudio.com\", role = \"aut\", comment = c(ORCID = \"0000-0003-3925-190X\")),\n    person(\"Andrew\", \"Dunning\", role = \"ctb\", comment = c(ORCID = \"0000-0003-0464-5036\")),\n    person(\"Atsushi\", \"Yasumoto\", role = c(\"ctb\", \"cph\"), comment = c(ORCID = \"0000-0002-8335-495X\", cph = \"Number sections Lua filter\")),\n    person(\"Barret\", \"Schloerke\", role = \"ctb\"),\n    person(\"Carson\", \"Sievert\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4958-2844\")), \n    person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n    person(\"Devon\", \"Ryan\", , \"dpryan79@gmail.com\", role = \"ctb\", comment = c(ORCID = \"0000-0002-8549-0971\")),\n    person(\"Frederik\", \"Aust\", , \"frederik.aust@uni-koeln.de\", role = \"ctb\", comment = c(ORCID = \"0000-0003-4900-788X\")),\n    person(\"Jeff\", \"Allen\", , \"jeff@rstudio.com\", role = \"ctb\"), \n    person(\"JooYoung\", \"Seo\", role = \"ctb\", comment = c(ORCID = \"0000-0002-4064-6012\")),\n    person(\"Malcolm\", \"Barrett\", role = \"ctb\"),\n    person(\"Rob\", \"Hyndman\", , \"Rob.Hyndman@monash.edu\", role = \"ctb\"),\n    person(\"Romain\", \"Lesur\", role = \"ctb\"),\n    person(\"Roy\", \"Storey\", role = \"ctb\"),\n    person(\"Ruben\", \"Arslan\", , \"ruben.arslan@uni-goettingen.de\", role = \"ctb\"),\n    person(\"Sergio\", \"Oller\", role = \"ctb\"),\n    person(, \"RStudio, PBC\", role = \"cph\"),\n    person(, \"jQuery UI contributors\", role = c(\"ctb\", \"cph\"), comment = \"jQuery UI library; authors listed in inst/rmd/h/jqueryui-AUTHORS.txt\"),\n    person(\"Mark\", \"Otto\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(\"Jacob\", \"Thornton\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(, \"Bootstrap contributors\", role = \"ctb\", comment = \"Bootstrap library\"),\n    person(, \"Twitter, Inc\", role = \"cph\", comment = \"Bootstrap library\"),\n    person(\"Alexander\", \"Farkas\", role = c(\"ctb\", \"cph\"), comment = \"html5shiv library\"),\n    person(\"Scott\", \"Jehl\", role = c(\"ctb\", \"cph\"), comment = \"Respond.js library\"),\n    person(\"Ivan\", \"Sagalaev\", role = c(\"ctb\", \"cph\"), comment = \"highlight.js library\"),\n    person(\"Greg\", \"Franko\", role = c(\"ctb\", \"cph\"), comment = \"tocify library\"),\n    person(\"John\", \"MacFarlane\", role = c(\"ctb\", \"cph\"), comment = \"Pandoc templates\"),\n    person(, \"Google, Inc.\", role = c(\"ctb\", \"cph\"), comment = \"ioslides library\"),\n    person(\"Dave\", \"Raggett\", role = \"ctb\", comment = \"slidy library\"),\n    person(, \"W3C\", role = \"cph\", comment = \"slidy library\"),\n    person(\"Dave\", \"Gandy\", role = c(\"ctb\", \"cph\"), comment = \"Font-Awesome\"),\n    person(\"Ben\", \"Sperry\", role = \"ctb\", comment = \"Ionicons\"),\n    person(, \"Drifty\", role = \"cph\", comment = \"Ionicons\"),\n    person(\"Aidan\", \"Lister\", role = c(\"ctb\", \"cph\"), comment = \"jQuery StickyTabs\"),\n    person(\"Benct Philip\", \"Jonsson\", role = c(\"ctb\", \"cph\"), comment = \"pagebreak Lua filter\"),\n    person(\"Albert\", \"Krewinkel\", role = c(\"ctb\", \"cph\"), comment = \"pagebreak Lua filter\")\n  )",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Description": "Convert R Markdown documents into a variety of formats.",
-        "Depends": "R (>= 3.0)",
-        "Imports": "tools, utils, knitr (>= 1.22), yaml (>= 2.1.19), htmltools (>=\n0.3.5), evaluate (>= 0.13), jsonlite, tinytex (>= 0.31), xfun\n(>= 0.21), jquerylib, methods, stringr (>= 1.2.0)",
-        "Suggests": "shiny (>= 1.6.0), tufte, testthat (>= 3.0.0), digest,\ndygraphs, vctrs, tibble, fs, rsconnect, withr (>= 2.4.2), bslib\n(>= 0.2.5.1), sass (>= 0.4.0)",
-        "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org",
+        "License": "GPL-3",
         "URL": "https://github.com/rstudio/rmarkdown,\nhttps://pkgs.rstudio.com/rmarkdown/",
         "BugReports": "https://github.com/rstudio/rmarkdown/issues",
-        "License": "GPL-3",
-        "RoxygenNote": "7.1.2",
-        "Encoding": "UTF-8",
+        "Depends": "R (>= 3.0)",
+        "Imports": "bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.3.5),\njquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=\n1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml\n(>= 2.1.19)",
+        "Suggests": "digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex\n(>= 1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>=\n3.0.3), tibble, tufte, vctrs, withr (>= 2.4.2)",
         "VignetteBuilder": "knitr",
+        "Config/Needs/website": "rstudio/quillt, pkgdown",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.1.2",
+        "SystemRequirements": "pandoc (>= 1.14) - http://pandoc.org",
         "NeedsCompilation": "no",
-        "Packaged": "2021-09-14 13:25:46 UTC; yihui",
+        "Packaged": "2022-04-25 18:22:36 UTC; yihui",
         "Author": "JJ Allaire [aut],\n  Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>),\n  Jonathan McPherson [aut],\n  Javier Luraschi [aut],\n  Kevin Ushey [aut],\n  Aron Atkins [aut],\n  Hadley Wickham [aut],\n  Joe Cheng [aut],\n  Winston Chang [aut],\n  Richard Iannone [aut] (<https://orcid.org/0000-0003-3925-190X>),\n  Andrew Dunning [ctb] (<https://orcid.org/0000-0003-0464-5036>),\n  Atsushi Yasumoto [ctb, cph] (<https://orcid.org/0000-0002-8335-495X>,\n    Number sections Lua filter),\n  Barret Schloerke [ctb],\n  Carson Sievert [ctb] (<https://orcid.org/0000-0002-4958-2844>),\n  Christophe Dervieux [ctb],\n  Devon Ryan [ctb] (<https://orcid.org/0000-0002-8549-0971>),\n  Frederik Aust [ctb] (<https://orcid.org/0000-0003-4900-788X>),\n  Jeff Allen [ctb],\n  JooYoung Seo [ctb] (<https://orcid.org/0000-0002-4064-6012>),\n  Malcolm Barrett [ctb],\n  Rob Hyndman [ctb],\n  Romain Lesur [ctb],\n  Roy Storey [ctb],\n  Ruben Arslan [ctb],\n  Sergio Oller [ctb],\n  RStudio, PBC [cph],\n  jQuery UI contributors [ctb, cph] (jQuery UI library; authors listed in\n    inst/rmd/h/jqueryui-AUTHORS.txt),\n  Mark Otto [ctb] (Bootstrap library),\n  Jacob Thornton [ctb] (Bootstrap library),\n  Bootstrap contributors [ctb] (Bootstrap library),\n  Twitter, Inc [cph] (Bootstrap library),\n  Alexander Farkas [ctb, cph] (html5shiv library),\n  Scott Jehl [ctb, cph] (Respond.js library),\n  Ivan Sagalaev [ctb, cph] (highlight.js library),\n  Greg Franko [ctb, cph] (tocify library),\n  John MacFarlane [ctb, cph] (Pandoc templates),\n  Google, Inc. [ctb, cph] (ioslides library),\n  Dave Raggett [ctb] (slidy library),\n  W3C [cph] (slidy library),\n  Dave Gandy [ctb, cph] (Font-Awesome),\n  Ben Sperry [ctb] (Ionicons),\n  Drifty [cph] (Ionicons),\n  Aidan Lister [ctb, cph] (jQuery StickyTabs),\n  Benct Philip Jonsson [ctb, cph] (pagebreak Lua filter),\n  Albert Krewinkel [ctb, cph] (pagebreak Lua filter)",
         "Repository": "RSPM",
-        "Date/Publication": "2021-09-14 14:10:02 UTC",
-        "Built": "R 4.1.0; ; 2021-09-21 22:39:56 UTC; unix"
+        "Date/Publication": "2022-04-25 19:20:02 UTC",
+        "Built": "R 4.1.0; ; 2022-04-26 10:49:03 UTC; unix"
       }
     },
     "sass": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Type": "Package",
         "Package": "sass",
@@ -1078,8 +1087,8 @@
       }
     },
     "stringi": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "stringi",
         "Version": "1.7.5",
@@ -1107,8 +1116,8 @@
       }
     },
     "stringr": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
@@ -1135,8 +1144,8 @@
       }
     },
     "sys": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "sys",
         "Type": "Package",
@@ -1162,12 +1171,12 @@
       }
     },
     "tibble": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "tibble",
         "Title": "Simple Data Frames",
-        "Version": "3.1.5",
+        "Version": "3.1.6",
         "Authors@R": "\n    c(person(given = \"Kirill\",\n             family = \"M\\u00fcller\",\n             role = c(\"aut\", \"cre\"),\n             email = \"krlmlr+r@mailbox.org\"),\n      person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Romain\",\n             family = \"Francois\",\n             role = \"ctb\",\n             email = \"romain@r-enthusiasts.com\"),\n      person(given = \"Jennifer\",\n             family = \"Bryan\",\n             role = \"ctb\",\n             email = \"jenny@rstudio.com\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "Provides a 'tbl_df' class (the 'tibble') with stricter checking and better formatting than the traditional\n    data frame.",
         "License": "MIT + file LICENSE",
@@ -1183,45 +1192,46 @@
         "Config/testthat/parallel": "true",
         "Config/testthat/start-first": "subsetting, as_tibble, add, invariants",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-09-29 14:03:45 UTC; kirill",
+        "Packaged": "2021-10-25 10:17:47 UTC; kirill",
         "Author": "Kirill Müller [aut, cre],\n  Hadley Wickham [aut],\n  Romain Francois [ctb],\n  Jennifer Bryan [ctb],\n  RStudio [cph]",
         "Maintainer": "Kirill Müller <krlmlr+r@mailbox.org>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-09-30 12:10:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-10-01 15:28:34 UTC; unix"
+        "Date/Publication": "2021-11-07 17:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-08 12:37:59 UTC; unix"
       }
     },
     "tidyselect": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "tidyselect",
         "Title": "Select from a Set of Strings",
-        "Version": "1.1.1",
+        "Version": "1.1.2",
         "Authors@R": "c(\n    person(\"Lionel\", \"Henry\", ,\"lionel@rstudio.com\", c(\"aut\", \"cre\")),\n    person(\"Hadley\", \"Wickham\", ,\"hadley@rstudio.com\", \"aut\"),\n    person(\"RStudio\", role = \"cph\")\n    )",
         "Description": "A backend for the selecting functions of the 'tidyverse'.\n    It makes it easy to implement select-like functions in your own\n    packages in a way that is consistent with other 'tidyverse'\n    interfaces for selection.",
         "Depends": "R (>= 3.2)",
-        "Imports": "ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 0.4.6),\nvctrs (>= 0.3.0)",
-        "Suggests": "covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>=\n2.3.0), tibble (>= 2.1.3), withr",
+        "Imports": "ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 1.0.1),\nvctrs (>= 0.3.0)",
+        "Suggests": "covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>=\n3.1.1), tibble (>= 2.1.3), withr",
         "License": "MIT + file LICENSE",
         "Encoding": "UTF-8",
         "ByteCompile": "true",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
         "URL": "https://tidyselect.r-lib.org, https://github.com/r-lib/tidyselect",
         "BugReports": "https://github.com/r-lib/tidyselect/issues",
         "VignetteBuilder": "knitr",
+        "Config/testthat/edition": "3",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-04-29 13:41:53 UTC; lionel",
+        "Packaged": "2022-02-21 14:59:24 UTC; lionel",
         "Author": "Lionel Henry [aut, cre],\n  Hadley Wickham [aut],\n  RStudio [cph]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-04-30 06:40:02 UTC",
-        "Built": "R 4.1.0; ; 2021-11-09 00:28:58 UTC; unix"
+        "Date/Publication": "2022-02-21 16:00:02 UTC",
+        "Built": "R 4.1.0; ; 2022-02-22 10:58:55 UTC; unix"
       }
     },
     "tinytex": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "tinytex",
         "Type": "Package",
@@ -1246,8 +1256,8 @@
       }
     },
     "utf8": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "utf8",
         "Title": "Unicode Text Processing",
@@ -1272,41 +1282,44 @@
       }
     },
     "vctrs": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "vctrs",
         "Title": "Vector Helpers",
-        "Version": "0.3.8",
+        "Version": "0.4.1",
         "Authors@R": "\n    c(person(given = \"Hadley\",\n             family = \"Wickham\",\n             role = \"aut\",\n             email = \"hadley@rstudio.com\"),\n      person(given = \"Lionel\",\n             family = \"Henry\",\n             role = c(\"aut\", \"cre\"),\n             email = \"lionel@rstudio.com\"),\n      person(given = \"Davis\",\n             family = \"Vaughan\",\n             role = \"aut\",\n             email = \"davis@rstudio.com\"),\n      person(given = \"data.table team\",\n             role = \"cph\",\n             comment = \"Radix sort based on data.table's forder() and their contribution to R's order()\"),\n      person(given = \"RStudio\",\n             role = \"cph\"))",
         "Description": "Defines new notions of prototype and size that are\n    used to provide tools for consistent and well-founded type-coercion\n    and size-recycling, and are in turn connected to ideas of type- and\n    size-stability useful for analysing function interfaces.",
         "License": "MIT + file LICENSE",
         "URL": "https://vctrs.r-lib.org/",
         "BugReports": "https://github.com/r-lib/vctrs/issues",
         "Depends": "R (>= 3.3)",
-        "Imports": "ellipsis (>= 0.2.0), glue, rlang (>= 0.4.10)",
-        "Suggests": "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,\npillar (>= 1.4.4), pkgdown, rmarkdown, testthat (>= 2.3.0),\ntibble, withr, xml2, waldo (>= 0.2.0), zeallot",
+        "Imports": "cli (>= 3.2.0), glue, rlang (>= 1.0.2)",
+        "Suggests": "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,\npillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=\n3.0.0), tibble (>= 3.1.3), withr, xml2, waldo (>= 0.2.0),\nzeallot",
         "VignetteBuilder": "knitr",
+        "SystemRequirements": "C++11",
         "Encoding": "UTF-8",
         "Language": "en-GB",
-        "RoxygenNote": "7.1.1",
+        "RoxygenNote": "7.1.2",
+        "Config/testthat/edition": "3",
+        "Config/Needs/website": "tidyverse/tidytemplate",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-04-29 15:14:11 UTC; lionel",
+        "Packaged": "2022-04-13 08:56:33 UTC; lionel",
         "Author": "Hadley Wickham [aut],\n  Lionel Henry [aut, cre],\n  Davis Vaughan [aut],\n  data.table team [cph] (Radix sort based on data.table's forder() and\n    their contribution to R's order()),\n  RStudio [cph]",
         "Maintainer": "Lionel Henry <lionel@rstudio.com>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-04-29 16:00:03 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-11-09 00:27:57 UTC; unix"
+        "Date/Publication": "2022-04-13 10:30:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-04-14 10:47:30 UTC; unix"
       }
     },
     "xfun": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "xfun",
         "Type": "Package",
         "Title": "Supporting Functions for Packages Maintained by 'Yihui Xie'",
-        "Version": "0.27",
+        "Version": "0.30",
         "Authors@R": "c(\n  person(\"Yihui\", \"Xie\", role = c(\"aut\", \"cre\", \"cph\"), email = \"xie@yihui.name\", comment = c(ORCID = \"0000-0003-0645-5666\")),\n  person(\"Wush\", \"Wu\", role = \"ctb\"),\n  person(\"Daijiang\", \"Li\", role = \"ctb\"),\n  person(\"Xianying\", \"Tan\", role = \"ctb\"),\n  person(\"Salim\", \"Brüggemann\", role = \"ctb\", email = \"salim-b@pm.me\", comment = c(ORCID = \"0000-0002-5329-5987\")),\n  person(\"Christophe\", \"Dervieux\", role = \"ctb\"),\n  person()\n  )",
         "Description": "Miscellaneous functions commonly used in other packages maintained by 'Yihui Xie'.",
         "Imports": "stats, tools",
@@ -1318,36 +1331,36 @@
         "RoxygenNote": "7.1.2",
         "VignetteBuilder": "knitr",
         "NeedsCompilation": "yes",
-        "Packaged": "2021-10-18 21:23:40 UTC; yihui",
+        "Packaged": "2022-03-02 20:44:44 UTC; yihui",
         "Author": "Yihui Xie [aut, cre, cph] (<https://orcid.org/0000-0003-0645-5666>),\n  Wush Wu [ctb],\n  Daijiang Li [ctb],\n  Xianying Tan [ctb],\n  Salim Brüggemann [ctb] (<https://orcid.org/0000-0002-5329-5987>),\n  Christophe Dervieux [ctb]",
         "Maintainer": "Yihui Xie <xie@yihui.name>",
         "Repository": "RSPM",
-        "Date/Publication": "2021-10-18 21:50:02 UTC",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-10-19 16:04:27 UTC; unix"
+        "Date/Publication": "2022-03-02 21:50:02 UTC",
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-03-03 10:50:05 UTC; unix"
       }
     },
     "yaml": {
-      "Source": "RSPM",
-      "Repository": "https://colorado.rstudio.com/rspm/all/__linux__/bionic/2021-11-12+MTc6NTg4NzczOSwxMDo1MzA5LDk6NTk2NTg0NTsyNENERDc2OQ",
+      "Source": "CRAN",
+      "Repository": "https://colorado.rstudio.com/rspm/cran/__linux__/bionic/latest",
       "description": {
         "Package": "yaml",
         "Type": "Package",
         "Title": "Methods to Convert R Data to YAML and Back",
-        "Date": "2020-01-23",
-        "Version": "2.2.1",
+        "Date": "2022-01-24",
+        "Version": "2.3.5",
         "Suggests": "RUnit",
-        "Author": "Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb]",
-        "Maintainer": "Jeremy Stephens <jeremy.f.stephens@vumc.org>",
+        "Author": "Shawn P Garbett [aut], Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb],\n  Michael Quinn [ctb], Zhian N. Kamvar [ctb]",
+        "Maintainer": "Shawn Garbett <shawn.garbett@vumc.org>",
         "License": "BSD_3_clause + file LICENSE",
-        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<http://pyyaml.org/wiki/LibYAML>) for R.",
-        "URL": "https://github.com/viking/r-yaml/",
-        "BugReports": "https://github.com/viking/r-yaml/issues",
+        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<https://pyyaml.org/wiki/LibYAML>) for R.",
+        "URL": "https://github.com/vubiostat/r-yaml/",
+        "BugReports": "https://github.com/vubiostat/r-yaml/issues",
         "NeedsCompilation": "yes",
-        "Packaged": "2020-01-30 20:29:56 UTC; stephej1",
+        "Packaged": "2022-02-19 02:41:00 UTC; garbetsp",
         "Repository": "RSPM",
-        "Date/Publication": "2020-02-01 05:50:02 UTC",
+        "Date/Publication": "2022-02-21 09:20:02 UTC",
         "Encoding": "UTF-8",
-        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2021-05-18 23:24:00 UTC; unix"
+        "Built": "R 4.1.0; x86_64-pc-linux-gnu; 2022-02-22 10:58:48 UTC; unix"
       }
     }
   },
@@ -1355,8 +1368,11 @@
     "imgs/penguins.png": {
       "checksum": "294f95f2d596414de70edc35dbe6d0fe"
     },
+    "imgs/screenshot.png": {
+      "checksum": "03235508cd6120cb56527a3a47d9a3ee"
+    },
     "report.Rmd": {
-      "checksum": "f5c1784a8f378b8b28abd6fb6c1684ef"
+      "checksum": "d261e642a59583c65fe0aa32aee41be9"
     }
   },
   "users": null

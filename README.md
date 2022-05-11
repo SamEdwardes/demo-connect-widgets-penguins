@@ -2,6 +2,9 @@
 
 A demo of connect widgets in RStudio Connect.
 
+- Code: <https://github.com/SamEdwardes/demo-connect-widgets-penguins>
+- Deployment: <https://colorado.rstudio.com/rsc/demo-connect-widgets-penguins/>
+
 ![](app/imgs/screenshot.png)
 
 ## Usage
@@ -19,7 +22,10 @@ rmarkdown::render("app/report.Rmd")
 To deploy to RStudio connect refresh the manifest.json file:
 
 ```r
-rsconnect::writeManifest("app", appFiles = c("report.Rmd", "imgs"))
+rsconnect::writeManifest(
+  "app", 
+  appFiles = c("report.Rmd", "imgs")
+)
 ```
 
 Then, push any changes to git. RStudio connect will automatically deploy any changes.

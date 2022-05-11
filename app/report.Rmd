@@ -1,6 +1,8 @@
 ---
 title: "Demo: Palmer Penguins"
 output: html_document
+resource_files:
+  - imgs/penguins.png
 ---
 
 ```{r setup, include=FALSE}
